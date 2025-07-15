@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+
+}
+.logo {
+  width: 200px;
+}
+nav > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  margin-right: 30px;
+}
+nav li {
+  margin-left: 50px;
+  position: sticky;
+}
+nav a {
+  text-decoration: none;
+  color: grey;
+  font-weight: 100;
+  font-size: large;
+}
+.homeContent a:hover {
+  color: white;
+  font-family: "Darker Grotesque", sans-serif;
+}
+nav a:hover {
+  color: lightblue;
+}
+#home-section {
+  margin-left: 80px;
+  margin-top: 100px;
+  position: relative;
+  height: 100vh;
+}
+.homeContent {
+  margin-left: 850px;
+}
+.home-heading {
+  font-size: 100px;
+  font-family: "Herr Von Muellerhoff", cursive;
+  font-weight: 30;
+  color: whitesmoke;
+  padding-top: 50px;
+}
+.home-para {
+  color: whitesmoke;
+  font-family: "Darker Grotesque", sans-serif;
+  padding-bottom: 10px;
+}
+.homeContent a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+#i {
+  width: 500px;
+  position: absolute;
+  left: 200px;
+  border-radius: 80px;
+}
+.quote {
+  padding-top: 50px;
+  padding-left: 50px;
+  text-align: left;
+  font-size: 70px;
+  font-family: sans-serif;
+}
+video {
+  margin-top: 300px;
+  border-radius: 50px;
+  position: absolute;
+}
+#home-section2 {
+  position: absolute;
+  margin-top: 600px;
+  margin-left: 800px;
+}
+.img2 {
+  height: 450px;
+}
+.home-heading2 {
+  font-size: 120px;
+  font-family: "Herr Von Muellerhoff", cursive;
+  font-weight: 30;
+  color: whitesmoke;
+  margin-left: -400px;
+  margin-top: -400px;
+}
+.para {
+  color: whitesmoke;
+  margin-left: -400px;
+  font-family: "Darker Grotesque", sans-serif;
+  font-size: 18px;
+}
+div a{
+  text-decoration: none;
+  color: white;
+
+}
+.content a{
+  color: white;
+  text-decoration: none;
+}
+a:hover{
+  color: cyan;
+  font-family: sans-serif;
+}
+.vid{
+margin-left: -710px;
+margin-top: 150px;
+border-radius: 50px;
+height: 750px;
+
+}
